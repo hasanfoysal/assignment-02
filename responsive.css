@@ -113,4 +113,7 @@
         width: 100%;
 
     }
+    .feedback-card{
+        flex-direction: column;
+    }
 }
