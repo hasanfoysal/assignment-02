@@ -60,6 +60,7 @@
     }
     .sec2 .text{
         width: 80%;
+        margin: 0 auto;
     }
     .sec2 .img{
         width: 100%;
