@@ -7,15 +7,15 @@
         flex-direction: column;
     }
     .sec5 .text {
-        width: 80%;
+        width: 100%;
         margin: 0 auto;
     }
     .sec5 .text input{
-        width:190px;
+        width:240px;
 
     }
     .sec5 .text button{
-        width:190px;
+        width:250px;
     }
     .sec5 .img{
         width: 80%;
@@ -26,11 +26,16 @@
    
     }
     .hotel {
-        width: 100%;
+        width: 90%;
         height: auto;
+        margin: 0 auto;
+
+    }
+    .sec4 p{
+        width: 250px;
     }
     .map{
-        width: 100%;
+        width: 90%;
         height: auto;
 
     }
@@ -40,7 +45,7 @@
 
     }
     .gaurantee p{
-        width: 285px;
+        width: 250px;
     }
     .row{
         flex-direction: column;
@@ -49,6 +54,9 @@
     .sec2{
         flex-direction: column;
        
+    }
+    .sec5 .img{
+        width: 100%;
     }
     .sec2 .text{
         width: 80%;
