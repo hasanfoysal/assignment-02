@@ -1,0 +1,13 @@
+@media screen and (max-width:576px){
+    .sec2{
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .sec2 .img img{
+        margin-top: 10px;
+    }
+    
+}
