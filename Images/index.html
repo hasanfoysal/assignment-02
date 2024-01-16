@@ -6,7 +6,8 @@
     <title>assignment-02</title>
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="responsive.css">
-    <script src="https://example.com/fontawesome/v5.15.4/js/all.js" data-auto-a11y="true" ></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+   
   </head>
 
 
@@ -17,6 +18,10 @@
         <div class="logo">
             <h1>Hello <span>Traveller</span></h1>
         </div>
+        <div class="icons">
+            <i class='bx bx-menu'></i>
+        </div>
+     
         <div class="a">
             <a style="color: orangered;" href="">Home</a>
             <a href="">Packages</a>
@@ -34,11 +39,16 @@
             <p>Our travel agancy is ready to offer you an exiting vacation that designed to fit you</p>
             <div class="input">
                 <input type="text" id="where" placeholder="where go">
-                <input type="date" id="when" placeholder="when">
-                <select name="" id="option" aria-placeholder="select type">
+                <select name="" id="when">
+                    <option value="date">When</option>
+                </select>
+             
+                <select name="" id="option">
                     <option value="">select type</option>
                 </select>
-                <button type="button" id="find" aria-placeholder="Find Now">Find Now</button>
+                
+                <button type="button" id="find">
+                    <i class='bx bx-search'></i> Find Now</button>
                
             </div>
         </div>
@@ -65,25 +75,33 @@
             </div>
         </div>
         <div class="sec3">
-            <div class="text">
-                <h1>Choose Your Destination</h1>
-                <p>Choose your favorite place and inform us quickly .we are very exited to recieve you</p>
-
+            <div class="choose-your-destination-text">
+                <h2>Choose Your Destination</h2>
+                <p>Arefin's Travel is your gateway to discovering hidden gems, cultural wonders, and awe-inspiring landscapes that define the essence of travel.</p>
             </div>
-            <div class="img1">
-            <img id="Maldives" src="./Rectangle 5.png" alt="Maldives">
-            <img id="Indonesia" src="./Rectangle 8.png" alt="">
+            <div class="destination-container">
+                <div class="row">
+                    <img src="Rectangle 5.png" alt="">
+                    <img src="Rectangle 8.png" alt="">
+                </div>
+                <div class="row">
+                    <div>
+                        <img src="Rectangle 6.png" alt="">
+                    </div>
+                    <div>
+                        <img src="Rectangle 7.png" alt="">
+                    </div>
+                    <div>
+                        <img src="Rectangle 9.png" alt="">
+                    </div>
+                </div>
+                <div class="row">
+                    <img src="Rectangle 11.png" alt="">
+                    <img src="Rectangle 10.png" alt="">
+                </div>
+            </div>
         </div>
-        <div class="img2">
-            <img id="Srilanka" src="./Rectangle 6.png" alt="">
-            <img id="North-America" src="./Rectangle 7.png" alt="">
-            <img id="Kashmir" src="./Rectangle 9.png" alt="">
-        </div>
-        <div class="img3">
-            <img id="Bandarban" src="./Rectangle 11.png" alt="">
-            <img id="Bangladesh" src="./Rectangle 10.png" alt="">
-          
-        </div>
+
         </div>
         <div class="sec4">
             <div class="text">
@@ -92,12 +110,13 @@
             </div>
             <div class="box">
             <div class="hotel">
-               <img src="" alt="">
+               <img src="hotel 1.svg" alt="">
                 <h2>Handpicked Hotels</h2>
                 <p>Handpicked Hotels is a collection of 21 unique and charming hotels in the UK, each with its own character and personality. They are all carefully chosen for their quality, location, and individuality, and they offer a great alternative to the big chain hotels.</p>
 
             </div>
             <div class="map">
+                <img src="map 1.svg" alt="">
                
                 <h2>World Class Service</h2>
                 <p>World-class service isn't just about reacting to problems. It's about proactively exceeding expectations. helping hand before they even ask. It's about making the guest feel like you're truly one step ahead, like you're reading their minds (in a good way!).</p>
@@ -105,9 +124,22 @@
             </div>
             </div>
             <div class="gaurantee">
+                <img src="price-tag 1.svg" alt="">
 
                 <h2>Best Price Guarantee</h2>
                 <p> Every BPG has its own specific terms and conditions, so be sure to understand what is and is not covered before you book. For example, some BPGs may only apply to certain types of rooms or flights, or they may have blackout dates when the guarantee is not in effect.</p>
+            </div>
+            <div class="bonus sec">
+                <div class="heading">
+                    <h1>Customer's Feedback</h1>
+                </div>
+                <div class="f">
+                    <img src="" alt="">
+
+                </div>
+                <div class="h">
+
+                </div>
             </div>
 
 
@@ -125,12 +157,20 @@
                 <button>Subscribe</button>
             
             </div>
-            <img src="./Rectangle 8 (1).png" alt="">
+            <div class="img">
+                <img src="./Rectangle 8 (1).png" alt="">
+            </div>
         </div>
     </body>
     <footer>
         <h1>Hello <span>Traveller</span></h1>
         <p>This is a simple and straightforward way to display the names of our popular tours.</p>
+        <div class="icon">
+            <i class='bx bxl-twitter'></i>
+            <i class='bx bxl-facebook'></i>
+            <i class='bx bxl-instagram' ></i>
+            <i class='bx bxl-github' ></i>
+        </div>
 
         <hr class="hr">
         <h4>2017, All Rights Reserved.</h4>
