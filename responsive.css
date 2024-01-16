@@ -11,11 +11,11 @@
         margin: 0 auto;
     }
     .sec5 .text input{
-        width:240px;
+        width:210px;
 
     }
     .sec5 .text button{
-        width:250px;
+        width:220px;
     }
     .sec5 .img{
         width: 80%;
@@ -41,11 +41,11 @@
     }
     .gaurantee{
         max-width:100%;
-        height: 350px;
+        height: 370px;
 
     }
     .gaurantee p{
-        width: 250px;
+        width: 220px;
     }
     .row{
         flex-direction: column;
