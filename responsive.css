@@ -83,6 +83,30 @@
         margin: 0 auto;
 
     }
+    .row h1{
+        padding-left: 100px;
+    }
+    .row h2 {
+        padding-left: 130px;
+        padding-top: 300px;
+        }
+        .row h3 {
+    padding-left: 130px;
+    }
+    .row h4 {
+        padding-left: 80px;
+        padding-top: 400px;
+    }
+    .row h5 {
+    padding-left: 110px;
+    padding-top: 750px;
+    }
+    .row p {
+    padding-left: 100px;
+    padding-top: 300px ;
+    }
+
+
     .sec1 .input #option{
         width: 90%;
         margin: 0 auto;
